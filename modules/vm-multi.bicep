@@ -102,10 +102,8 @@ resource extArray 'Microsoft.Compute/virtualMachines/extensions@2023-03-01' = [f
     typeHandlerVersion: '2.1'
     autoUpgradeMinorVersion: true
     settings: {
-      fileUris: [
-        'https://raw.githubusercontent.com/gil-daniel/iac-nginx-lab/main/scripts/install-nginx.sh'
-      ]
-      commandToExecute: 'bash install-nginx.sh'
+      fileUris: []
+      commandToExecute: 'curl -sSL https://raw.githubusercontent.com/gil-daniel/iac-nginx-lab/main/scripts/install-nginx.sh | bash'
     }
   }
 }]
