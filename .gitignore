@@ -1,0 +1,9 @@
+# Ignore sensitive files
+parameters.json
+
+# Ignore editor/OS clutter
+*.log
+*.swp
+*.DS_Store
+__pycache__/
+

@@ -1,0 +1,18 @@
+{
+  "location": {
+    "value": "westeurope"
+  },
+  "vmSize": {
+    "value": "Standard_B1s"
+  },
+  "adminPublicKey": {
+    "value": "ssh-ed25519 AAAA...EXAMPLE"
+  },
+  "vmBaseName": {
+    "value": "nginxvm"
+  },
+  "vmCount": {
+    "value": 2
+  }
+}
+
