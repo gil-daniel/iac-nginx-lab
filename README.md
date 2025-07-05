@@ -99,6 +99,9 @@ sudo systemctl start nginx
 * The modular Bicep architecture follows best practices for scalability and reusability
 * Ideal for portfolio demonstration, lab experimentation, or adapting to production environments
 
-📜 License
+# ✅ Deployment Status
+  Successfully deployed and tested in a live Azure lab environment using curl and dynamic instance responses. All modules provisioned correctly: network, load balancer, virtual machines, and NGINX setup via remote script execution.
+
+# 📜 License
 
 MIT License — free to use and extend.
